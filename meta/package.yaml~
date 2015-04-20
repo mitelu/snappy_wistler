@@ -1,0 +1,12 @@
+name: teapotnode.mitelu
+vendor: Alex Maties <alex@mitelu.chatroom>
+architecture: [amd64, armhf]
+icon: meta/teapot.svg
+version: 1	
+services:
+ - name: teapot
+   description: "Snappy code to run whistler "
+   start: start-service.sh
+ports:
+ required: 6565
+
